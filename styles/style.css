@@ -142,6 +142,10 @@ html {
     height: 45px;
 }
 
+.notification-image-card:hover {
+    cursor: pointer;
+}
+
 .notification-card {
     display: flex;
     flex-direction: column;
