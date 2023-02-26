@@ -13,7 +13,21 @@
 
 .notification-box {
     display: flex;
+    flex-direction: column;
+}
+
+.notification-header {
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notification-header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
 
 .attribution {
